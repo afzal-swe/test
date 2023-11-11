@@ -10,8 +10,18 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
+                    <div class="contianer">
+                        
+                        <a href="{{ route('create.user') }}" class="btn text-success">Add Data</a>
+                        <a href="{{ route('view.user') }}" class="btn text-info">View Data</a>
+                        
+                    </div>
                 </div>
+                
             </div>
+            
         </div>
+       
     </div>
+    
 </x-app-layout>
